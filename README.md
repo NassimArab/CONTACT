@@ -1,7 +1,7 @@
 ## Implémentation d'une application android Contact  
-## Nassim ARAB  
-## Mohamed CHABANE  
-## Radi Lina  
+#### Nassim ARAB  
+#### Mohamed CHABANE  
+#### Radi Lina  
   
 ### Présentation de l'application :    
 Contact est une application de gestion de contacts et de groupes de contacts.  
