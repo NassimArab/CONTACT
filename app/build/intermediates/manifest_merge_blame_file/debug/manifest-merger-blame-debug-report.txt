@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.contacts"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:5:5-30:19
+12        android:allowBackup="true"
+12-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0-rc01] /home/nassim/.gradle/caches/transforms-2/files-2.1/0a24f66f30aa88e58514b4772733e5a7/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.contacts.Contact.UpdateContact" />
+20-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:12:9-68
+20-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:12:19-56
+21        <activity android:name="com.example.contacts.Contact.DetailContact" />
+21-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:13:9-59
+21-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:13:19-56
+22        <activity android:name="com.example.contacts.Group.displayGroup" />
+22-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:14:9-56
+22-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:14:19-53
+23        <activity android:name="com.example.contacts.Contact.AddContact" />
+23-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:15:9-56
+23-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:15:19-53
+24        <activity android:name="com.example.contacts.Group.GroupeActivity" />
+24-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:16:9-58
+24-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:16:19-55
+25        <activity android:name="com.example.contacts.GroupContactJoin.displayContactsOfAGroup" />
+25-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:17:9-78
+25-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:17:19-75
+26        <activity android:name="com.example.contacts.GroupContactJoin.ContactsOfAGroupActivity" />
+26-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:18:9-79
+26-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:18:19-76
+27        <activity
+27-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:19:9-28:20
+28            android:name="com.example.contacts.Application.MainActivity"
+28-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:20:13-53
+29            android:label="@string/app_name"
+29-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:21:13-45
+30            android:theme="@style/AppTheme.NoActionBar" >
+30-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:22:13-56
+31            <intent-filter>
+31-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:24:17-69
+32-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:26:17-77
+34-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.contacts.Contact.NewContactActivity" />
+37-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:29:9-64
+37-->/home/nassim/Documents/Master/pjec_arabradichabane/Contacts/app/src/main/AndroidManifest.xml:29:19-61
+38
+39        <service
+39-->[androidx.room:room-runtime:2.2.0-beta01] /home/nassim/.gradle/caches/transforms-2/files-2.1/2c8bca68260683f1cf1c51e3b7501546/room-runtime-2.2.0-beta01/AndroidManifest.xml:25:9-27:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.2.0-beta01] /home/nassim/.gradle/caches/transforms-2/files-2.1/2c8bca68260683f1cf1c51e3b7501546/room-runtime-2.2.0-beta01/AndroidManifest.xml:26:13-74
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.2.0-beta01] /home/nassim/.gradle/caches/transforms-2/files-2.1/2c8bca68260683f1cf1c51e3b7501546/room-runtime-2.2.0-beta01/AndroidManifest.xml:27:13-37
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] /home/nassim/.gradle/caches/transforms-2/files-2.1/7dad3f0c6cc0719c38408ab8c103aa4b/lifecycle-process-2.2.0-alpha03/AndroidManifest.xml:25:9-29:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] /home/nassim/.gradle/caches/transforms-2/files-2.1/7dad3f0c6cc0719c38408ab8c103aa4b/lifecycle-process-2.2.0-alpha03/AndroidManifest.xml:26:13-79
+45            android:authorities="com.example.contacts.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] /home/nassim/.gradle/caches/transforms-2/files-2.1/7dad3f0c6cc0719c38408ab8c103aa4b/lifecycle-process-2.2.0-alpha03/AndroidManifest.xml:27:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] /home/nassim/.gradle/caches/transforms-2/files-2.1/7dad3f0c6cc0719c38408ab8c103aa4b/lifecycle-process-2.2.0-alpha03/AndroidManifest.xml:28:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] /home/nassim/.gradle/caches/transforms-2/files-2.1/7dad3f0c6cc0719c38408ab8c103aa4b/lifecycle-process-2.2.0-alpha03/AndroidManifest.xml:29:13-40
+48    </application>
+49
+50</manifest>

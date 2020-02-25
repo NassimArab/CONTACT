@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#009688"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/iconDet"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/nameDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/iconDet"
+            android:layout_centerInParent="true"
+            android:text="Nassim"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/TGroupDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:text="Groupe : "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:layout_below="@id/nameDet"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <TextView
+            android:id="@+id/GroupDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="Groupename "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:layout_below="@id/nameDet"
+            android:layout_toLeftOf="@id/TGroupDet"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+        />
+
+        <TextView
+            android:id="@+id/TNumeroDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:text="Numbre : "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:layout_below="@id/GroupDet"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <TextView
+            android:id="@+id/NumeroDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:text="numbre "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:layout_below="@id/GroupDet"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"/>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/TCityDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NumeroDet"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:text="City : "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/CityDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NumeroDet"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="20dp"
+            android:text="city"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/TStreetDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CityDet"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:text="Street : "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/StreetDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CityDet"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="20dp"
+            android:text="Street"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TCPDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StreetDet"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:text="CP : "
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/CPDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/StreetDet"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="20dp"
+            android:text="CP"
+            android:textColor="#fff"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
